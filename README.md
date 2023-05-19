@@ -11,7 +11,7 @@ To install the package, simply follow the steps below.
 Install the package using Composer:
 
 ```
-$ composer require viacreative/sudo-su
+$ composer require Tarantella110/sudo-su
 ```
 
 Add the package's service provider to your app in your project's `AppServiceProvider`:
@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         if (config('app.debug')) {
-            $this->app->register('VIACreative\SudoSu\ServiceProvider');
+            $this->app->register('Tarantella110\SudoSu\ServiceProvider');
         }
     }
 }
