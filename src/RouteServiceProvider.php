@@ -11,7 +11,7 @@ class RouteServiceProvider extends BaseServiceProvider
     {
         Route::group([
             'prefix' => 'sudosu',
-            'namespace' => 'VIACreative\SudoSu\Controllers',
+            'namespace' => 'Tarantella110\SudoSu\Controllers',
             'middleware' => ['web']
         ], function () {
             Route::post('/sudosu/login-as-user', 'SudoSuController@loginAsUser')
