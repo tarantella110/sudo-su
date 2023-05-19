@@ -1,6 +1,6 @@
 <?php
 
-namespace VIACreative\SudoSu;
+namespace Tarantella110\SudoSu;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as BaseServiceProvider;
