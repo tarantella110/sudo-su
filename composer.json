@@ -1,12 +1,12 @@
 {
-    "name": "viacreative/sudo-su",
+    "name": "tarantella110/sudo-su",
     "description": "A utility package for logging in as other users",
     "keywords": ["laravel", "debugging"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Terry Harvey",
-            "email": "contact@terryharvey.co.uk"
+            "name": "Tarantella",
+            "email": "beiker110@126.com"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VIACreative\\SudoSu\\": "src/"
+            "Tarantella110\\SudoSu\\": "src/"
         }
     }
 }
