@@ -1,9 +1,9 @@
 <?php
 
-namespace VIACreative\SudoSu\Controllers;
+namespace Tarantella110\SudoSu\Controllers;
 
 use Illuminate\Http\Request;
-use VIACreative\SudoSu\SudoSu;
+use Tarantella110\SudoSu\SudoSu;
 use Illuminate\Routing\Controller;
 
 class SudoSuController extends Controller
