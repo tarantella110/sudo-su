@@ -1,6 +1,6 @@
 <?php
 
-namespace VIACreative\SudoSu;
+namespace Tarantella110\SudoSu;
 
 use Illuminate\Auth\AuthManager;
 use Illuminate\Support\Facades\Config;
